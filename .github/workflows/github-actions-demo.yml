@@ -2,6 +2,7 @@ name: hello-world
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: make say-hello
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make say-hello
